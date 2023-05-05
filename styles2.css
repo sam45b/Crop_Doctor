@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    background-color: #C7E8CA;
+    /* font-family: serif ; */
+    color: black ;
+    margin: 1px;
+    /* background: size 1000px 5000px ; */
+    font-family: "Montserrat-black";  
+}
+
+.heading{
+    background-color: #009688;
+    padding: 30px;
+
+}
+
+.head {
+    font-weight: bolder;
+    color: #fff;
+   
+}
+
+.row {
+    margin: 50px;
+    margin-bottom: 40px;
+    /* padding-left: 80px;
+    padding-right: 80px; */
+
+}
+
+/* features */
+
+.feature-box{
+    padding-top: 60px;
+}
+
+
+.icon {
+    color: #97f5a4;
+    margin-bottom: 1rem; 
+}
+.icon:hover{
+    color: #4FA095;
+}
+
+
+
+img{
+    width: 18rem;
+    height: 12rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    margin-top: 5px;
+    font-size: 1.3rem;
+    color: #539165;
+    font-weight:600px;
+    
+}
+
+ hr {
+     border-top: 10px dotted #4FA095;
+    width: 50%; 
+} 
+
+.leaf{
+    float: left;
+    /* margin-top: 40px; */
+}
+
+img {
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(10deg);
+    }
+ 
+  }  
+p,h1 {
+    margin-bottom: 10px;
+    list-style-type: square;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }  

@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background-color: #C7E8CA;
+    font-family: "Montserrat-black";  
+    color: black ;
+    margin: 1px;
+    /* background-image: url('images/plantleaf.png'); */
+
+    color: #539165;
+}
+
+.heading{
+    background-color: #009688;
+    padding: 30px;
+
+}
+
+.head {
+    font-weight: bolder;
+    color: #fff;
+   
+}
+
+p {
+    padding: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+       
+    
+
+}
+
+.para{
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    
+  
+  
+}
+
+li {
+    margin-bottom: 10px;
+    list-style-type: square;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
